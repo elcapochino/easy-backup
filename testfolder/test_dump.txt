@@ -1,0 +1,25 @@
+
+- ID: 0
+  name: Mein erstes Backup
+  sources:
+    - D:\Schule\Komplexe Leistung\Berechnung von Pi anhand von kollidierenden Körpern\Python\Kollisions-Simulator
+      2000
+    - C:\flutter\.pub-cache
+    - D:\Downloads\Towny-master
+  destination: D:\Backups
+  intervals:
+    full: 1w
+    differential: 1d
+
+- ID: 1
+  name: Eine weitere Sicherung
+  sources:
+    - D:\Autos\Porsche\Fensterlose Modelle
+    - D:\Schule\Hausaufgaben
+    - C:\Meine Bilder\Urlaub 2019
+  destination: D:\Backups\2
+  intervals:
+    full: 3d
+
+- name: test
+  ID: 2
